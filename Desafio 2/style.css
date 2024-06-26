@@ -1,0 +1,174 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype'), url('fontes/idroid.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c5ebd6;
+    margin: 0px;
+}
+header {
+    background: linear-gradient(to bottom, #36b03c, #2a8030);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+header > p {
+    text-align: center;
+    color: rgba(245, 245, 245, 0.693);
+
+}
+nav {
+    text-align: justify;
+    margin-left: 11px;
+
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+main {
+background-color: white;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+box-shadow: 2px 3px 15px black;
+width: 600px;
+padding: 10px;
+margin-top: 0px;
+margin-right: auto;
+margin-bottom: 10px;
+margin-left: auto;
+}
+h2 {
+    font-family: 'android', Times, serif;
+    font-size: 26px;
+    color: #1A5C37;
+}
+h3 {
+    background-color: #E3F6EB;
+    color: #256442;
+    font-family: 'android', Times, serif;
+}
+
+b{
+    color: #006600;
+}
+
+p {
+    text-align: justify;
+}
+
+.content {
+background-color: #d4f3e4;
+padding: 20px;
+margin-top: 20px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-container {
+background-color: #1A5C38; /* Cor de fundo verde */
+padding: 15px; /* Espaçamento interno para criar o efeito de borda */
+margin: -10px;
+border-radius: 0px; /* Borda arredondada */
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para dar um efeito visual agradável */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+iframe {
+display: block;
+max-width: 100%;
+height: 300px;
+border: none; /* Remove a borda do iframe */
+}
+
+.title {
+background-color: #2FA866;
+padding: 10px;
+margin: -19px;
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+font-size: 1.3em;
+color: white;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.versions {
+list-style-type: none;
+padding: 0;
+columns: 2;  /* Split list into two columns */
+}
+
+.link-container {
+display: inline-flex;
+align-items: center;
+font-size: 16px;
+text-decoration: none;
+color: green;
+}
+
+.link-container::after {
+content: '\1F517'; /* Unicode para o símbolo de link (corrente) */
+margin-left: 5px;
+display: inline-block;
+transform: rotate(45deg);
+font-size: 1.2em;
+}
+
+.versions li {
+background: url('checkmark.png') no-repeat left center;
+padding-left: 20px;
+margin-bottom: 5px;
+}
+.versions li::before{
+    content: '✔';
+    position: initial;
+    left: 0;
+}
+a {
+color: #006600;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+.fotos {
+ display: flex;
+justify-content: center;
+ align-items: center;
+height: 200px; /* 100% da altura da viewport */
+}   
+
+img {
+max-width: 100%;
+height: auto; /* Mantém a proporção da imagem */
+}   
+
+footer {
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+footer > p {
+    text-align: center;
+    margin: 4px;
+}
